@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=sdk-1.0.901.aar"
+  - mvn install:install-file $FILE -DgroupId=circle.programmablewallet -DartifactId=sdk -Dversion=1.0.901 -Dpackaging=aar -DgeneratePom=true
